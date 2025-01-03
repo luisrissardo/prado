@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: white;
+  --foreground: #0a0a0a;
+  --info: #F4F7FA;
+}
+
+    
+
+
+
+header{
+  background-color: #013253;
+  color: white;
+}
+#info{
+  background-color: var(--info);
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
